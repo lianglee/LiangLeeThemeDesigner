@@ -21,5 +21,4 @@ Features:
 
 5.) Change Header Search Bar Color
 
-
 Note: If you want to add any new feature please infom us we will add to next release if it is possible.
