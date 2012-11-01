@@ -58,6 +58,12 @@ global $liangbody_color;
 global $liangheader_bgimg;
 
 /*
+ * Register Global Variables for Header Height.
+ *
+ * @access public
+ */
+global $liangheader_height;
+/*
  * Fetch Settings For Topbar color or image
  *
  * @access public
@@ -130,7 +136,8 @@ $lee_elgg_page_header = $liangheader_color;
 .elgg-page-default .elgg-page-header > .elgg-inner {
 	width: 990px;
 	margin: 0 auto;
-	height: 90px;
+   height: <?php echo $liangheader_height; ?>;
+
 }
 .elgg-page-default .elgg-page-body > .elgg-inner {
 	width: 990px;
