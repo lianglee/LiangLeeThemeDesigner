@@ -59,6 +59,25 @@ global $liangheader_bgimg;
 global $liangsearch_br;
 
 /*
+ * Register Global Variables for Header Height.
+ *
+ * @access public
+ */
+global $liangheader_height;
+
+
+/*
+ * Fetch Settings for Header Height.
+ *
+ * @access public
+ */
+$liang_header_height = elgg_get_plugin_setting("Leethemed_header_height", "LiangLeeThemeDesigner");
+if (!elgg_get_plugin_setting("Leethemed_header_height", "LiangLeeThemeDesigner")) {
+    $liangheader_height = '90px';
+    } else { 
+    $liangheader_height = $liang_header_height;
+}
+/*
  * Fetch Settings for Topbar Background.
  *
  * @access public
