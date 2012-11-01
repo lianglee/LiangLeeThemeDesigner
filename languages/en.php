@@ -20,12 +20,18 @@ $english = array(
 		'leethemed:search:clr' => "Border Color,Select color from color picker and paste example :#ffffff",
 		'leethemed:logo' => "Settings for Site Logo in header",
         'leethemed:logo:url' => "The Width of Logo Must be '61' Enter Url Like :http://mywebsite.com/logo.jpg",
-		'leethemed:clrl' => "Color Picker",
+		'leethemed:clrl' => "Select color of Header background",
 		'leethemed:clrl:gen' => "Copy Color from the box and paste it where you want",
 		'leethemed:topbar' => "Settings for Topbar",
 		'leethemed:topbar:bgurl' => "Enter Url for Topbar Background Like :http://mywebsite.com/topbarbg.jpg",
 		'leethemed:topbar:clr' => "Enter Color in for topbar background.",
 		'leethemed:topbar:height' => "Type the topbar height example : 34",
+		'leethemed:logo:header:height' => "Header Height",
+		'leethemed:clrl:srch' => "Select color for Search border",
+		'leethemed:clrl:header' => "Select color for Header",
+		'leethemed:clrl:tbar' => "Select Color for topbar",
+		'leethemed:clrl:note' => "You need to first type '#' in color input field without quotation marks",
+		'leethemed:clrl:body' => "Select color for body background",
 
 /*
 * Don't Translate the Line Below
