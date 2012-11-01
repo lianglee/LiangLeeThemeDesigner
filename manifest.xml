@@ -24,7 +24,7 @@
       <requires>
         <type>plugin</type>
         <name>LiangleeFramework</name>
-        <version>1.1.2</version>
+        <version>1.1.3</version>
        </requires>
 	<requires>
 		<type>elgg_release</type>
