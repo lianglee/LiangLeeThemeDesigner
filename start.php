@@ -30,6 +30,7 @@ elgg_extend_view('css/admin', 'LiangLeeThemeDesigner/css/css');
  */
 elgg_register_plugin_hook_handler("register", "all", 'LiangLeeThemeDesigner_logo');
 
+
 /*
  * Register Error if Framework is missing and Pluing is Enabled
  *
