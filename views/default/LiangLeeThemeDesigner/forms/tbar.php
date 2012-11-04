@@ -58,8 +58,9 @@ echo elgg_view("input/text", array(
 echo elgg_view("input/text", array(
 "name" => "params[Leethemed_tbar_height]", 
 "placeholder" => "34",
-"value" => $vars['entity']->Leethemed_tbar_height));	 ?>
+"value" => $vars['entity']->Leethemed_tbar_height)); ?>
         </p>
-      <hr/></td>
+      <hr/>
+	  </td>
   </tr>
 </table>
