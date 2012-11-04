@@ -25,7 +25,7 @@ echo elgg_view('input/dropdown', array(
 <hr/> 
       <table border="0"> 
         <tr> 
-          <td width=301><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/header');  ?></td> 
+          <td width=301><?php include_once(LiangLee_plugin_path('LiangLeeThemeDesigner','views').'default/LiangLeeThemeDesigner/forms/header.php');  ?></td> 
           <td width=52>&nbsp;&nbsp;&nbsp;</td> 
           <td width=360><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/clr/header');  ?></td> 
         </tr> 
@@ -35,7 +35,8 @@ echo elgg_view('input/dropdown', array(
           <td>&nbsp;</td> 
         </tr> 
         <tr> 
-          <td><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/bodyandsrch');  ?></td> 
+          <td><?php include_once(LiangLee_plugin_path('LiangLeeThemeDesigner','views').'default/LiangLeeThemeDesigner/forms/bodyandsrch.php'); 
+ ?></td> 
           <td>&nbsp;</td> 
           <td width="360"><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/clr/bodyandsrch');  ?></td>
         </tr>
@@ -45,7 +46,7 @@ echo elgg_view('input/dropdown', array(
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/tbar');  ?></td>
+          <td><?php include_once(LiangLee_plugin_path('LiangLeeThemeDesigner','views').'default/LiangLeeThemeDesigner/forms/tbar.php');?></td>
           <td>&nbsp;</td>
           <td width="360"><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/clr/topbar');  ?></td>
         </tr> 
