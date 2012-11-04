@@ -4,4 +4,5 @@ LiangLeeThemeDesinger 1.0.1~dev
 
 Bugs Fixes:
 
-* View was not found ticket ticket # 9
+* View was not found ticket ticket #9
+* Walled garden color set to white , ticket #8
