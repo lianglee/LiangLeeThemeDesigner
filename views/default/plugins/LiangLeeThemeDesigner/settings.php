@@ -14,8 +14,8 @@
 **/
 $plug_ver = LiangLee_version('LiangLeeThemeDesigner');
 $plug_rel = LiangLee_release('LiangLeeThemeDesigner');
- 
-echo Lianglee_view('LiangLeeThemeDesigner','admin/admin');  
+include(LiangLee_plugin_path('LiangLeeThemeDesigner','views').'default/LiangLeeThemeDesigner/admin/admin.php'); 
+
 ?>	  
 <hr/>
   <?php 
