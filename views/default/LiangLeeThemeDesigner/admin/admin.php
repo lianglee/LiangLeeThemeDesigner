@@ -49,6 +49,16 @@ echo elgg_view('input/dropdown', array(
           <td><?php include_once(LiangLee_plugin_path('LiangLeeThemeDesigner','views').'default/LiangLeeThemeDesigner/forms/tbar.php');?></td>
           <td>&nbsp;</td>
           <td width="360"><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/clr/topbar');  ?></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><?php include_once(LiangLee_plugin_path('LiangLeeThemeDesigner','views').'default/LiangLeeThemeDesigner/forms/walledg.php');?></td>
+          <td>&nbsp;</td>
+          <td><?php echo Lianglee_view('LiangLeeThemeDesigner','forms/clr/walledg');  ?></td>
         </tr> 
 </table> 
       
