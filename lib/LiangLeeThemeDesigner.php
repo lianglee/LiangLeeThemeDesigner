@@ -64,7 +64,24 @@ global $liangsearch_br;
  * @access public
  */
 global $liangheader_height;
+/*
+ * Register Global Variables for WalledGarden Image.
+ *
+ * @access public
+ */
+global $liangwalledg_bgimg;
 
+/*
+ * Fetch Settings for Header Height.
+ *
+ * @access public
+ */
+$liang_walledg = elgg_get_plugin_setting("Leethemed_walledg_background", "LiangLeeThemeDesigner");
+if (!elgg_get_plugin_setting("Leethemed_walledg_background", "LiangLeeThemeDesigner")) {
+    $liangwalledg_bgimg = '90px';
+    } else { 
+    $liangwalledg_bgimg = $liang_walledg;
+}
 
 /*
  * Fetch Settings for Header Height.
