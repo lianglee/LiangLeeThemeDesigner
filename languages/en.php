@@ -34,8 +34,8 @@ $english = array(
 		'leethemed:clrl:note' => "You need to first type '#' in color input field without quotation marks",
 		'leethemed:clrl:body' => "Select color for body background",
 		'leethemed:walledg' => "Settings for walled-garden",
-		'leethemed:walledg:bgurl ' => "Enter url for walled-garden background image like :http://mywebsite.com/walledbg.jpg",
-		'leethemed:walledg:clr ' => "Enter color in for walledg background.",
+		'leethemed:walledg:bgurl' => "Enter url for walled-garden background image like :http://mywebsite.com/walledbg.jpg",
+		'leethemed:walledg:clr' => "Enter color in for walledg background.",
 		'leethemed:clrl:walledg' => "Select color for walled-garden background",
 
 /*
