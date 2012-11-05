@@ -5,3 +5,5 @@ LiangLeeThemeDesinger 1.0.1~dev3
 Bugs Fixes:
 
 Walled-Garden issue Ticket #12
+
+translation missing arg(':walledg:clr' , ':walledg:clr' ) ticket #13
