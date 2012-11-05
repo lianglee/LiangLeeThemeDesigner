@@ -19,7 +19,13 @@ Features:
 
 7.) Change Header Logo.
 
-5.) Change Header Search Bar Color
+5.) Change header search bar border color.
+
+6.) Change header height.
+
+7.) Change walled-garden background color.
+
+8.) Change walled-garden background image.
 
 
 Note: If you want to add any new feature please infom us we will add to next release if it is possible.
