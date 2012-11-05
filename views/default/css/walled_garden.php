@@ -1,13 +1,46 @@
 <?php
-/**
- * Walled garden CSS
+/* LiangLeeThemeDesigner
+ * @website Link: http://community.elgg.org/pg/profile/arsalanlee/
+ * @package LiangLeeFramework
+ * @subpackage LiangLeeThemeDesigner
+ * @author Liang Lee
+ * @copyright All right reserved Liang Lee 2012.
+ * @File walled_garden.php 
  */
+/*
+ * Include a settings css library.
+ *
+ * @access admin
+ */  
+LiangLee_include('LiangLeeThemeDesigner','lib/LiangLeeThemeDesigner');
+/*
+ * Call a settings css library.
+ *
+ * @access public
+ */
+LiangLeeThemeDesigner_lib();
+/*
+ * Register Global Variables for WalledGarden Image.
+ *
+ * @access public
+ */
+$bgorcolor =  elgg_get_plugin_setting("Leethemed_walledg_bgorcolor", "LiangLeeThemeDesigner");
 
+global $liangwalledg_bgimg;
+
+if($bgorcolor == 'image'){
+$wallbg = 'url('.$liangwalledg_bgimg.')'; 
+}
+if($bgorcolor == 'color'){
+$wallbg = $liangwalledg_bgimg; 
+}
+if(empty($bgorcolor)){
+$wallbg = '#fff'; 
+}
 $url = elgg_get_site_url();
-
 ?>
 body {
-	background-color: white;
+	background: <?php echo $wallbg; ?>;
 }
 .elgg-body-walledgarden {
 	margin: 100px auto 0 auto;
