@@ -10,5 +10,5 @@
     <PRJ Property="ProductCode" Value="9872:{D93830FC-LEE-52AF1-87BD-TDESIGNER24}" Type="5"/>
     <PRJ Property="ProductLanguage" Value="2057"/>
     <PRJ Property="ProductName" Value="LiangLeeThemeDesigner" ValueLocId="*"/>
-    <PRJ Property="ProductVersion" Value="1.0.1~dev2"/>
+    <PRJ Property="ProductVersion" Value="1.0.1~dev3"/>
   </COMPONENT>
