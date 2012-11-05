@@ -7,3 +7,5 @@ Bugs Fixes:
 Walled-Garden issue Ticket #12
 
 translation missing arg(':walledg:clr' , ':walledg:clr' ) ticket #13
+
+Parse error: syntax error, fixed ticket #15
