@@ -1,4 +1,3 @@
-
 <?php
 /* LiangLee Theme Designer
  * FrameWork for Liang Lee Plugins
@@ -46,4 +45,3 @@ $english = array(
  );
 					
 add_translation("en", $english);
-?>
