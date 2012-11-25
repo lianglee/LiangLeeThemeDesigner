@@ -9,5 +9,5 @@
  * @File version.php
  */
 $LiangLee_version = '05112012';
-$LiangLee_release = '1.0.1~dev3'; 
+$LiangLee_release = '1.0.1~dev4'; 
 ?>
