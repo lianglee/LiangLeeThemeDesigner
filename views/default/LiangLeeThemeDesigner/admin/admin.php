@@ -16,7 +16,7 @@ echo LiangLee_inc_js('LiangLeeThemeDesigner','jquery/farbtastic.js');
 <?php
 echo elgg_view('input/dropdown', array(
     'name' => 'params[Leethemed_logotop]',
-    'value' => $vars['entity']->liang_lee_zh,
+    'value' => $vars['entity']->Leethemed_logotop,
     'options_values' => array(
 	'Enable' => 'Enable Topbar Logo', 
 	'disable' => 'Disable TopBar Logo'
