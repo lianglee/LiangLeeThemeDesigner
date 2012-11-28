@@ -9,3 +9,5 @@ Coolsam001 - http://community.elgg.org/profile/coolsam  ( Suggestions Ticket #1 
 Speedysnail6 - https://github.com/Speedysnail6  ( see Ticket # 5 )
 
 denizbilmen - https://github.com/denizbilmen ( see Ticket # 7 and #6)
+
+Isoguci - https://github.com/isoguci
