@@ -9,6 +9,8 @@
  * @File start.php
  */
  
+$path = new LiangLeePath; 
+include_once($path->lib('LiangLeeThemeDesigner').'LiangLeeThemeDesigner.php');
 elgg_register_event_handler('init', 'system', 'LiangLeeThemeDesigner');
 
 /*

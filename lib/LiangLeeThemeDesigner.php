@@ -9,6 +9,59 @@
  * @File LiangLeeThemeDesigner.php 
  */
  
+function LiangLeeThemeDesigner_css_main(){
+/*
+ * Register Global Variables.
+ *
+ * @access public
+ */
+/*
+ * Register Global Variables for Body Background color.
+ *
+ * @access public
+ */
+global $liangbody_color;
+/*
+ * Register Global Variables for Body Background image.
+ *
+ * @access public
+ */
+global $liangbody_img;
+/*
+ * Fetch Settings for body Background image.
+ *
+ * @access public
+ */
+$liang_body_img = elgg_get_plugin_setting("Leethemed_body_bgimg", "LiangLeeThemeDesigner");
+if (!elgg_get_plugin_setting("Leethemed_body_bgimg", "LiangLeeThemeDesigner")) {
+    $liangbody_img = '#4690D6';
+    } else { 
+    $liangbody_img = $liang_body_img;
+}
+/*
+ * Fetch Settings for body Background color.
+ *
+ * @access public
+ */
+$liang_body_color = elgg_get_plugin_setting("Leethemed_body_bgcolor", "LiangLeeThemeDesigner");
+if (!elgg_get_plugin_setting("Leethemed_body_bgcolor", "LiangLeeThemeDesigner")) {
+     $liangbody_color = '#ffffff';
+     } else { 
+     $liangbody_color = $liang_body_color;
+}
+/*
+ * Fetch Settings for Searchbar Border Color.
+ *
+ * @access public
+ */
+$liang_search_br = elgg_get_plugin_setting("Leethemed_search_br", "LiangLeeThemeDesigner");
+if (!elgg_get_plugin_setting("Leethemed_search_br", "LiangLeeThemeDesigner")) {
+    $liangsearch_br = '#71b9f7';
+    } else { 
+   $liangsearch_br = $liang_search_br;
+}
+
+}
 function LiangLeeThemeDesigner_lib(){
 /*
  * Register Global Variables.
@@ -165,4 +218,3 @@ if (!elgg_get_plugin_setting("Leethemed_logo", "LiangLeeThemeDesigner")) {
 }
 
 }
-?>

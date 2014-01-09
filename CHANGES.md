@@ -1,7 +1,5 @@
-LiangLeeThemeDesinger 1.0.1~dev4
-
-(November 26, 2012 from https://github.com/lianglee/LiangLeeThemeDesigner/tree/1.0.1)
+LiangLeeThemeDesinger 1.0.2 (June 15 , 2013)
 
 Bugs Fixes:
 
-* Fix a header already been send error. 
+* White page error. Reported by cool-mates 

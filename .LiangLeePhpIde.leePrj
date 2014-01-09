@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DOCUMENT Type="Liang Lee PHP IDE" CreateVersion="2.3.3" version="2.3.2" Modules="professional" RootPath="." Language="cn">
-  <COMPONENT cid="liang.lee.php.elgg">
+<DOCUMENT Type="Liang Lee PHP IDE" CreateVersion="3.9.1" version="3.9.0" Modules="professional" RootPath="." Language="cn">
+
+     #LiangLeePhpIde 3.x.x , SystemCompoment Bin File (elgg, jom, wp, dup, meng)
+    <COMPONENT cid="liang.lee.php.elgg">
+
+    #LiangLeePhpIde 3.x.x , Buildtype
     <PRJ Property="BUILDTYPE" MultiBuildValue="Default"/>
+   
+    #LiangLeePhpIde 3.x.x , BuildServer
     <PRJ Property="SERVERTYPE" Value="UNIX"/>
-    <PRJ Property="ARPCOMMENTS" Value="Lee's Theme Designer." ValueLocId="*"/>
-    <PRJ Property="REPAIR" Value="elgg"/>
-    <PRJ Property="SYSTEMCOMPONENT" Value="elgg"/>
+   
+     #LiangLeePhpIde 3.x.x , Appcoments
+    <PRJ Property="ARPCOMMENTS" Value="Liang Lee Theme Designer." ValueLocId="*"/>
+    
+    #LiangLeePhpIde 3.x.x , Repair Systemcompoment
+   <PRJ Property="REPAIR" Value="elgg"/>
+   
+    #LiangLeePhpIde 3.x.x , Which Compoment Elgg, Joomla, Worldpress          
+   <PRJ Property="SYSTEMCOMPONENT" Value="elgg"/>
+
+    #LiangLeePhpIde 3.x.x , Developer Name       
     <PRJ Property="Manufacturer" Value="Liang Lee" ValueLocId="*"/>
+
+    #LiangLeePhpIde 3.x.x , Product Code       
     <PRJ Property="ProductCode" Value="9872:{D93830FC-LEE-52AF1-87BD-TDESIGNER24}" Type="5"/>
+    
+    #LiangLeePhpIde 3.x.x , Product Script      
     <PRJ Property="ProductLanguage" Value="2057"/>
-    <PRJ Property="ProductName" Value="LiangLeeThemeDesigner" ValueLocId="*"/>
-    <PRJ Property="ProductVersion" Value="1.0.1~dev3"/>
+   
+    #LiangLeePhpIde 3.x.x , Product Name   
+   <PRJ Property="ProductName" Value="LianLeeThemeDesigner"    ValueLocId="*"/>
+        
+    #LiangLeePhpIde 3.x.x , Define Version
+    <PRJ Property="ProductVersion" Value="1.0"/>
+    
+    #LiangLeePhpIde 3.9.1 Need to Call WorkShop
+    <PRJ workshop=[ProductName] />
+
   </COMPONENT>

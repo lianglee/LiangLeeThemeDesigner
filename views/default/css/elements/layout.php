@@ -12,7 +12,6 @@
  *
  * @access admin
  */  
-LiangLee_include('LiangLeeThemeDesigner','lib/LiangLeeThemeDesigner');
 /*
  * Call a settings css library.
  *
