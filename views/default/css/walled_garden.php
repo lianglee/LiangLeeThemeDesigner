@@ -8,12 +8,6 @@
  * @File walled_garden.php 
  */
 /*
- * Include a settings css library.
- *
- * @access admin
- */  
-LiangLee_include('LiangLeeThemeDesigner','lib/LiangLeeThemeDesigner');
-/*
  * Call a settings css library.
  *
  * @access public
